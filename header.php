@@ -68,7 +68,7 @@
                             <i class="align-middle" data-feather="briefcase"></i> <span class="align-middle">Accounting</span>
                         </a>
                         <ul id="accounting" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
-                            <li class="sidebar-item"><a class="sidebar-link" href="">Students Fees</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="std_invoice.php">Students Fees</a></li>
                         </ul>
                     </li>
                 </ul>
