@@ -3,7 +3,13 @@
 <main class="content">
 	<div class="container-fluid p-0">
 
-		<h1 class="h3 mb-3">Syllabus</h1>
+		<div class="card">
+			<div class="row card-body">
+				<div class="col-sm-6">
+					<h5>Syllabus</h5>
+				</div>
+			</div>
+		</div>
 
 		<div class="row justify-content-center">
 			<div class="col-12">
@@ -41,7 +47,7 @@
 							<div class="col-sm-12">
 								<div class="table-responsive-sm">
 									<table id="example" class="table table-striped my-0">
-										<thead>
+										<thead style="background-color: #566079;color: aliceblue;">
 											<tr>
 												<th>Title</th>
 												<th>Syllabus</th>
@@ -81,6 +87,8 @@
 
 <script>
 	$(document).ready(function() {
-		$('#example').DataTable();
+		$('#example').DataTable({
+			"ordering": false,
+		});
 	});
 </script>
