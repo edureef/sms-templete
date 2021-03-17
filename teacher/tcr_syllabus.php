@@ -2,12 +2,14 @@
 
 <main class="content">
     <div class="container-fluid p-0">
-        <div class="">
-            <div class="card">
-                <div class="row card-body">
-                    <div class="col-sm-6">
-                        <h5>All Students</h5>
-                    </div>
+
+        <div class="card">
+            <div class="row card-body">
+                <div class="col-sm-6">
+                    <h5>Syllabus</h5>
+                </div>
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-outline-info" style="float: inline-end;">Create syllabus</button>
                 </div>
             </div>
         </div>
@@ -41,26 +43,36 @@
                                 <button type="submit" class="btn btn-primary col-sm-12">Filter</button>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-sm-12">
                                 <div class="table-responsive-sm">
                                     <table id="example" class="table table-striped my-0">
                                         <thead style="background-color: #566079;color: aliceblue;">
                                             <tr>
-                                                <th>Student Id</th>
-                                                <th>Photo</th>
-                                                <th>Name</th>
+                                                <th>Title</th>
+                                                <th>Syllabus</th>
+                                                <th>Subject</th>
                                                 <th>Option</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>1</td>
-                                                <td><img class="rounded-circle rounded me-2 mb-2" width="50" height="50" src="../img/avatars/avatar-4.jpg" alt=""></td>
+                                                <td>Final Syllabus</td>
+                                                <td><button class="btn btn-sm btn-info">Download File</button></td>
                                                 <td>Computer</td>
-                                                <td>
-                                                    <button class="btn btn-primary btn-sm">View Details</button>
-                                                </td>
+                                                <td><button class="btn btn-sm btn-outline-danger"><i class="align-middle" data-feather="delete"></i></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>First Term Syllabus</td>
+                                                <td><button class="btn btn-sm btn-info">Download File</button></td>
+                                                <td>English</td>
+                                                <td><button class="btn btn-sm btn-outline-danger"><i class="align-middle" data-feather="delete"></i></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>First Term Syllabus</td>
+                                                <td><button class="btn btn-sm btn-info">Download File</button></td>
+                                                <td>Mathematics</td>
+                                                <td><button class="btn btn-sm btn-outline-danger"><i class="align-middle" data-feather="delete"></i></button></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -71,10 +83,12 @@
                 </div>
             </div>
         </div>
+
     </div>
 </main>
 
 <?php require 'footer.php'; ?>
+
 <script>
     $(document).ready(function() {
         $('#example').DataTable({
