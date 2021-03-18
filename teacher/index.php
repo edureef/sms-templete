@@ -8,9 +8,6 @@
                     <div class="col-sm-6">
                         <h5>Teacher Home Page</h5>
                     </div>
-                    <div class="col-sm-6">
-                        <button type="button" class="btn btn-outline-info" style="float: inline-end;">Take attendance</button>
-                    </div>
                 </div>
             </div>
         </div>
