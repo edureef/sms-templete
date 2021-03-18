@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="row card-body">
                     <div class="col-sm-6">
-                        <h5>Student Attendance</h5>
+                        <h5>Manage marks</h5>
                     </div>
                 </div>
             </div>
