@@ -8,8 +8,67 @@
                 <div class="col-sm-6">
                     <h5>Syllabus</h5>
                 </div>
+
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-outline-info" style="float: inline-end;">Create syllabus</button>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#syllabusModal" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Create syllabus</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="syllabusModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="makeSyllabusModel" aria-hidden="true">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="makeSyllabusModel">Create syllabus</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-8">
+                                            <div class="input-group row mb-3">
+                                                <label class="form-label">Title</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="input-group row mb-3">
+                                                <label class="form-label">Class</label>
+                                                <select class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="input-group row mb-3">
+                                                <label class="form-label">Section</label>
+                                                <select class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">A</option>
+                                                    <option value="2">B</option>
+                                                    <option value="3">C</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group row mb-3">
+                                                <label class="form-label">Subject</label>
+                                                <select class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">Math</option>
+                                                    <option value="2">Physics</option>
+                                                    <option value="3">English</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group row mb-3">
+                                                <label for="" class="form-label">Upload syllabus</label>
+                                                <input class="form-control" id="" type="file">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer mx-auto col-10">
+                                    <button type="button" class="btn btn-primary w-100">Create syllabus</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Model -->
                 </div>
             </div>
         </div>
