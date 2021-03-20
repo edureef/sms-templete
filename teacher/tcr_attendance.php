@@ -10,7 +10,103 @@
                         <h5>Student Attendance</h5>
                     </div>
                     <div class="col-sm-6">
-                        <button type="button" class="btn btn-outline-info" style="float: inline-end;">Take attendance</button>
+                        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#attendanceModal" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Take attendance</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="attendanceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="takeAttendanceModel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="takeAttendanceModel">Take attendance</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="" method="post">
+                                            <form action="" method="post">
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <label for="">Date</label>
+                                                        <input type="date" class="form-control mt-2" name="" id="">
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <label for="">Class</label>
+                                                        <select class="mt-2 form-control" name="" id="">
+                                                            <option value="">One</option>
+                                                            <option value="">Two</option>
+                                                            <option value="">Three</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <label for="">Section</label>
+                                                        <select class="mt-2 form-control" name="" id="">
+                                                            <option value="">A</option>
+                                                            <option value="">B</option>
+                                                            <option value="">C</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <label for=""></label>
+                                                        <input class="mt-2 form-control" type="button" value="Show Students List" style="background-color: bisque;border-radius: 21px;font-weight: bold;">
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                            <div class="row mt-5 justify-content-center">
+                                                <div class="col-8">
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <th>Student Name</th>
+                                                            <th>Status</th>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Romel</td>
+                                                                <td>
+                                                                    <div class="form-check-inline">
+                                                                        <input class="form-check-input" type="radio" value="1" name="Romel">
+                                                                        <label class="form-check-label">
+                                                                            Present
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check-inline">
+                                                                        <input class="form-check-input" type="radio" value="0" name="Romel">
+                                                                        <label class="form-check-label">
+                                                                            Absent
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Bugrazz</td>
+                                                                <td>
+                                                                    <div class="form-check-inline">
+                                                                        <input class="form-check-input" type="radio" value="1" name="Bugrazz">
+                                                                        <label class="form-check-label">
+                                                                            Present
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check-inline">
+                                                                        <input class="form-check-input" type="radio" value="0" name="Bugrazz">
+                                                                        <label class="form-check-label">
+                                                                            Absent
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Update Attendance</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Model -->
                     </div>
                 </div>
             </div>
@@ -163,6 +259,7 @@
         </div>
 
     </div>
+
 </main>
 
 <?php require 'footer.php'; ?>
