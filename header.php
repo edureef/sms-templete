@@ -54,6 +54,15 @@
                     </li>
 
                     <li class="sidebar-item">
+                        <a href="#liveClass" data-bs-toggle="collapse" class="sidebar-link collapsed">
+                            <i class="align-middle" data-feather="video"></i> <span class="align-middle">Live Class</span>
+                        </a>
+                        <ul id="liveClass" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
+                            <li class="sidebar-item"><a class="sidebar-link" href="std_live_class.php">Your Live Classes</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-item">
                         <a href="#exam" data-bs-toggle="collapse" class="sidebar-link collapsed">
                             <i class="align-middle" data-feather="clipboard"></i> <span class="align-middle">Exam</span>
                         </a>
