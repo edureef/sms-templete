@@ -23,39 +23,39 @@
                                 <div class="modal-body">
                                     <div class="row justify-content-center">
                                         <div class="col-8">
-                                            <div class="input-group row mb-3">
+                                            <div class="mb-3">
                                                 <label class="form-label">Title</label>
                                                 <input type="text" class="form-control">
                                             </div>
-                                            <div class="input-group row mb-3">
+                                            <div class="mb-3">
                                                 <label class="form-label">Class</label>
                                                 <select class="form-select">
-                                                    <option selected>Choose...</option>
+                                                    <option selected>Choose A Class</option>
                                                     <option value="1">One</option>
                                                     <option value="2">Two</option>
                                                     <option value="3">Three</option>
                                                 </select>
                                             </div>
 
-                                            <div class="input-group row mb-3">
+                                            <div class="mb-3">
                                                 <label class="form-label">Section</label>
                                                 <select class="form-select">
-                                                    <option selected>Choose...</option>
+                                                    <option selected>Choose A Section</option>
                                                     <option value="1">A</option>
                                                     <option value="2">B</option>
                                                     <option value="3">C</option>
                                                 </select>
                                             </div>
-                                            <div class="input-group row mb-3">
+                                            <div class="mb-3">
                                                 <label class="form-label">Subject</label>
                                                 <select class="form-select">
-                                                    <option selected>Choose...</option>
+                                                    <option selected>Choose A Subject</option>
                                                     <option value="1">Math</option>
                                                     <option value="2">Physics</option>
                                                     <option value="3">English</option>
                                                 </select>
                                             </div>
-                                            <div class="input-group row mb-3">
+                                            <div class="mb-3">
                                                 <label for="" class="form-label">Upload syllabus</label>
                                                 <input class="form-control" id="" type="file">
                                             </div>
