@@ -65,49 +65,83 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row justify-content-center">
-                <div class="col-10">
-                    <table class="table table-bordered">
-                        <thead class="table-dark">
-                            <th>Title</th>
-                            <th>Class</th>
-                            <th>Subject</th>
-                            <th>Deadline</th>
-                            <th>Submissions</th>
-                            <th class="text-center">Action</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Refraction of Light and Our Eyes</td>
-                                <td>Class : Class One <br>
-                                    Section : A</td>
-                                <td>Physics</td>
-                                <td>24 Jan 2027</td>
-                                <td>1 Students</td>
-                                <td class="text-center">
-                                    <div class="btn-group" role="group">
-                                        <button id="btnGroupDrop1" type="button" class="p-1 btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"style="border: 1px solid #222121;border-radius: 20px;">
-                                        <i class="align-middle" data-feather="more-vertical"></i>
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                            <li><a class="dropdown-item" href="#">Questions</a></li>
-                                            <li><a class="dropdown-item" href="#">Submissions</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit</a></li>
-                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                        </ul>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
         </div>
 
-        <div class="row">
-            <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row mb-5 justify-content-center">
+                    <div class="col-sm-2">
+                        <form>
+                            <select class="form-control mb-3">
+                                <option selected>Select A Class</option>
+                                <option>One</option>
+                                <option>Two</option>
+                                <option>Three</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="col-sm-2">
+                        <form>
+                            <select class="form-control mb-3">
+                                <option selected>Select Section</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="col-sm-2">
+                        <form>
+                            <select class="form-control mb-3">
+                                <option selected>Select Subject</option>
+                                <option>English</option>
+                                <option>Physics</option>
+                                <option>Math</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="col-sm-2">
+                        <button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+                    </div>
+                </div>
 
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <table class="table table-bordered">
+                            <thead class="table-dark">
+                                <th>Title</th>
+                                <th>Class</th>
+                                <th>Subject</th>
+                                <th>Deadline</th>
+                                <th>Submissions</th>
+                                <th class="text-center">Action</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Refraction of Light and Our Eyes</td>
+                                    <td>Class : Class One <br>
+                                        Section : A</td>
+                                    <td>Physics</td>
+                                    <td>24 Jan 2027</td>
+                                    <td>1 Students</td>
+                                    <td class="text-center">
+                                        <div class="btn-group" role="group">
+                                            <button id="btnGroupDrop1" type="button" class="p-1 btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="border: 1px solid #222121;border-radius: 20px;">
+                                                <i class="align-middle" data-feather="more-vertical"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                                <li><a class="dropdown-item" href="#">Questions</a></li>
+                                                <li><a class="dropdown-item" href="#">Submissions</a></li>
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
