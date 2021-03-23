@@ -127,7 +127,7 @@
                                     <td class="text-center">
                                         <div class="btn-group" role="group">
                                             <button id="btnGroupDrop1" type="button" class="p-1 btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="border: 1px solid #222121;border-radius: 20px;">
-                                                <i class="align-middle" data-feather="more-vertical"></i>
+                                                <i class="align-middle" data-feather="more-vertical" style="margin-left: 16px;"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                                 <li><a class="dropdown-item" href="#">Questions</a></li>
