@@ -16,10 +16,10 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <div class="row mb-5 justify-content-center">
-                            <div class="col-sm-3">
+                        <div class="row mb-5">
+                            <div class="col-sm-4">
                                 <form>
-                                    <select class="form-control mb-3">
+                                    <select class="form-control form-control-sm mb-3">
                                         <option selected>Select A Class</option>
                                         <option>One</option>
                                         <option>Two</option>
@@ -27,9 +27,9 @@
                                     </select>
                                 </form>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-sm-4">
                                 <form>
-                                    <select class="form-control mb-3">
+                                    <select class="form-control form-control-sm mb-3">
                                         <option selected>Select Section</option>
                                         <option>A</option>
                                         <option>B</option>
@@ -37,20 +37,20 @@
                                     </select>
                                 </form>
                             </div>
-                            <div class="col-sm-2">
-                                <button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+                            <div class="col-sm-4">
+                                <button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-sm-10">
-                                <div class="table-responsive-sm">
-                                    <table id="example" class="table table-striped my-0">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="table-responsive table-responsive-sm">
+                                    <table id="example" class="table table-sm table-striped my-0">
                                         <thead style="background-color: #566079;color: aliceblue;">
                                             <tr>
                                                 <th>Student Id</th>
                                                 <th>Photo</th>
                                                 <th>Name</th>
-                                                <th>Option</th>
+                                                <th class="text-center">Option</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -58,7 +58,7 @@
                                                 <td>1</td>
                                                 <td><img class="rounded-circle rounded me-2 mb-2" width="50" height="50" src="../img/avatars/avatar-4.jpg" alt=""></td>
                                                 <td>Computer</td>
-                                                <td>
+                                                <td class="text-center">
                                                     <button class="btn btn-primary btn-sm">View Details</button>
                                                 </td>
                                             </tr>
@@ -76,9 +76,8 @@
 
 <?php require 'footer.php'; ?>
 <script>
-    $(document).ready(function() {
-        $('#example').DataTable({
-            "ordering": false,
-        });
+    $('#example').DataTable({
+        responsive: true,
+        "ordering": false,
     });
 </script>
