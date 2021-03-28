@@ -95,7 +95,7 @@
                 </a>
 
 
-                <h4 class="w-100">Your School/Collage Name <a href="" class="btn btn-outline-info text-dark ml-4">Visit Website</a></h4>
+                <h4 class="w-100">Your School/Collage Name <a href="" class="btn btn-sm btn-outline-info text-dark ml-4">Visit Website</a></h4>
 
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav navbar-align">

@@ -6,11 +6,11 @@
         <div class="">
             <div class="card">
                 <div class="row card-body">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-md-6">
                         <h5>Student Attendance</h5>
                     </div>
-                    <div class="col-sm-6">
-                        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#attendanceModal" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Take attendance</button>
+                    <div class="col-sm-6 col-md-6">
+                        <button type="button" class="btn btn-sm btn-outline-info float-end" data-bs-toggle="modal" data-bs-target="#attendanceModal" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Take attendance</button>
 
                         <!-- Modal -->
                         <div class="modal fade" id="attendanceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="takeAttendanceModel" aria-hidden="true">
@@ -24,35 +24,35 @@
                                         <form action="" method="post">
                                             <form action="" method="post">
                                                 <div class="row">
-                                                    <div class="col-sm-3">
+                                                    <div class="col-sm-4">
                                                         <label for="">Date</label>
-                                                        <input type="date" class="form-control mt-2" name="" id="">
+                                                        <input type="date" class="form-control form-control-sm mt-2" name="" id="">
                                                     </div>
-                                                    <div class="col-sm-3">
+                                                    <div class="col-sm-2">
                                                         <label for="">Class</label>
-                                                        <select class="mt-2 form-control" name="" id="">
+                                                        <select class="mt-2 form-control form-control-sm" name="" id="">
                                                             <option value="">One</option>
                                                             <option value="">Two</option>
                                                             <option value="">Three</option>
                                                         </select>
                                                     </div>
-                                                    <div class="col-sm-3">
+                                                    <div class="col-sm-2">
                                                         <label for="">Section</label>
-                                                        <select class="mt-2 form-control" name="" id="">
+                                                        <select class="mt-2 form-control form-control-sm" name="" id="">
                                                             <option value="">A</option>
                                                             <option value="">B</option>
                                                             <option value="">C</option>
                                                         </select>
                                                     </div>
-                                                    <div class="col-sm-3">
+                                                    <div class="col-sm-4">
                                                         <label for=""></label>
-                                                        <input class="mt-2 form-control" type="button" value="Show Students List" style="background-color: bisque;border-radius: 21px;font-weight: bold;">
+                                                        <input class="mt-2 form-control form-control-sm" type="button" value="Show Students" style="background-color: bisque;border-radius: 21px;font-weight: bold;">
                                                     </div>
                                                 </div>
 
                                             </form>
                                             <div class="row mt-5 justify-content-center">
-                                                <div class="col-8">
+                                                <div class="col-8 col-sm-12">
                                                     <table class="table table-bordered">
                                                         <thead>
                                                             <th>Student Name</th>
@@ -100,8 +100,8 @@
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Update Attendance</button>
+                                        <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-sm btn-primary">Update Attendance</button>
                                     </div>
                                 </div>
                             </div>
@@ -116,11 +116,11 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <div class="row mb-5 justify-content-center">
-                            <div class="col-sm-2">
+                        <div class="row mb-5">
+                            <div class="col-sm-3">
                                 <form>
-                                    <select class="form-control mb-3">
-                                        <option value="">Select A Month</option>
+                                    <select class="form-control form-control-sm mb-3">
+                                        <option value="">Month</option>
                                         <option value="Jan">January</option>
                                         <option value="Feb">February</option>
                                         <option value="Mar">March</option>
@@ -138,8 +138,8 @@
                             </div>
                             <div class="col-sm-2">
                                 <form>
-                                    <select class="form-control mb-3">
-                                        <option selected>Select Year</option>
+                                    <select class="form-control form-control-sm mb-3">
+                                        <option selected>Year</option>
                                         <option>2021</option>
                                         <option>2020</option>
                                         <option>2019</option>
@@ -148,18 +148,18 @@
                             </div>
                             <div class="col-sm-2">
                                 <form>
-                                    <select class="form-control mb-3">
-                                        <option selected>Select A Class</option>
+                                    <select class="form-control form-control-sm mb-3">
+                                        <option selected>Class</option>
                                         <option>One</option>
                                         <option>Two</option>
                                         <option>Three</option>
                                     </select>
                                 </form>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-sm-3">
                                 <form>
-                                    <select class="form-control mb-3">
-                                        <option selected>Select Section</option>
+                                    <select class="form-control form-control-sm mb-3">
+                                        <option selected>Section</option>
                                         <option>A</option>
                                         <option>B</option>
                                         <option>C</option>
@@ -167,12 +167,12 @@
                                 </form>
                             </div>
                             <div class="col-sm-2">
-                                <button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+                                <button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="table-responsive-sm">
+                                <div class="table-responsive table-responsive-sm">
                                     <table class="table table-bordered">
                                         <thead class="thead-dark">
                                             <tr>
