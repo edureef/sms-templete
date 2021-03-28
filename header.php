@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+    <meta name="description" content="Responsive Dashboard Template based on Bootstrap 5">
     <meta name="author" content="rsoftbd">
-    <meta name="keywords" content="rsoftbd, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, web">
+    <meta name="keywords" content="rsoftbd">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
@@ -25,7 +25,7 @@
         <nav id="sidebar" class="sidebar">
             <div class="sidebar-content js-simplebar">
                 <a class="sidebar-brand" href="index.html">
-                    <img src="img/logo.png" style="margin-left: 5ex;">
+                    <img src="img/logo.jpg" width="150" height="150" class="img-thumbnail rounded-circle" style="margin-left: 28px;">
                     <hr>
                 </a>
 
@@ -91,7 +91,7 @@
                 </a>
 
 
-                <h2 class="ml-4">BIRSHRESHTHA NOOR MOHAMMAD PUBLIC COLLEGE (BNMPC)</h2>
+                <h4 class="w-100">Your School/Collage Name <a href="" class="btn btn-outline-info text-dark ml-4">Visit Website</a></h4>
 
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav navbar-align">

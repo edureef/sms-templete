@@ -11,13 +11,15 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="../img/icons/icon-48x48.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <title>Teacher | Home</title>
+    <title>Admin | Home</title>
 
     <link href="../css/app.css" rel="stylesheet">
     <link href="../css/dataTables.bootstrap5.min.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="../js/fontawesome.js"></script>
 </head>
 
 <body>
@@ -41,9 +43,14 @@
                     </li>
 
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="show_student_list.php">
-                            <i class="align-middle" data-feather="user"></i> <span class="align-middle">Students</span>
+                        <a href="#user" data-bs-toggle="collapse" class="sidebar-link collapsed">
+                            <i class="align-middle" data-feather="users"></i> <span class="align-middle">Users</span>
                         </a>
+                        <ul id="user" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
+                            <li class="sidebar-item"><a class="sidebar-link" href="admission.php">Admission</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_teacher.php">Teachers</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_accountant.php">Accountant</a></li>
+                        </ul>
                     </li>
 
                     <li class="sidebar-item">
@@ -51,11 +58,10 @@
                             <i class="align-middle" data-feather="home"></i> <span class="align-middle">Academic</span>
                         </a>
                         <ul id="academic" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
-                            <li class="sidebar-item"><a class="sidebar-link" href="tcr_attendance.php">Attendance</a></li>
-                            <li class="sidebar-item"><a class="sidebar-link" href="tcr_class_routine.php">Class Routine</a></li>
-                            <li class="sidebar-item"><a class="sidebar-link" href="tcr_subject.php">Subject</a></li>
-                            <li class="sidebar-item"><a class="sidebar-link" href="tcr_syllabus.php">Syllabus</a></li>
-                            <li class="sidebar-item"><a class="sidebar-link" href="">Event Calender</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_class.php">Class</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_subject.php">Subject</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_classRoom.php">Class Room</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_class_routine.php">Class Routine</a></li>
                         </ul>
                     </li>
 
@@ -64,8 +70,7 @@
                             <i class="align-middle" data-feather="video"></i> <span class="align-middle">Live Class</span>
                         </a>
                         <ul id="liveClass" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
-                            <li class="sidebar-item"><a class="sidebar-link" href="tcr_show_live_class.php">Your Live Classes</a></li>
-                            <li class="sidebar-item"><a class="sidebar-link" href="add_new_live_class.php">Add New</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="live_class_setting.php">Live Class Settings</a></li>
                         </ul>
                     </li>
 
@@ -74,15 +79,34 @@
                             <i class="align-middle" data-feather="clipboard"></i> <span class="align-middle">Examen</span>
                         </a>
                         <ul id="exam" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
-                            <li class="sidebar-item"><a class="sidebar-link" href="tcr_marks.php">Marks</a></li>
-                            <li class="sidebar-item"><a class="sidebar-link" href="">Examen</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="admin_marks.php">Marks</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_examen.php">Examen</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="add_grade.php">Grades</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="">promotion</a></li>
                         </ul>
                     </li>
 
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="assignment.php">
-                            <i class="align-middle" data-feather="clipboard"></i> <span class="align-middle">Assignment</span>
+                        <a href="#accounting" data-bs-toggle="collapse" class="sidebar-link collapsed">
+                            <i class="align-middle" data-feather="briefcase"></i> <span class="align-middle">Accounting</span>
                         </a>
+                        <ul id="accounting" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
+                            <li class="sidebar-item"><a class="sidebar-link" href="std_invoice.php">Students Fees Manager</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="expense_manager.php">Expense Manager</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#admin_setting" data-bs-toggle="collapse" class="sidebar-link collapsed">
+                            <i class="align-middle" data-feather="settings"></i> <span class="align-middle">Settings</span>
+                        </a>
+                        <ul id="admin_setting" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
+                            <!-- <li class="sidebar-item"><a class="sidebar-link" href="system_setting.php">System Settings</a></li> -->
+                            <li class="sidebar-item"><a class="sidebar-link" href="website_setting.php">Website Settings</a></li>
+                            <!-- <li class="sidebar-item"><a class="sidebar-link" href="school_setting.php">School Settings</a></li> -->
+                            <li class="sidebar-item"><a class="sidebar-link" href="payment_setting.php">Payment Settings</a></li>
+                            <li class="sidebar-item"><a class="sidebar-link" href="smtp_setting.php">Smtp Settings</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>

@@ -10,10 +10,10 @@
                     </div>
                     <div class="col-sm-6">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-info mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdropSection" style="float: inline-end;">
+                        <button type="button" class="btn btn-sm btn-outline-info float-end mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdropSection" style="float: inline-end;">
                             Add Section
                         </button>
-                        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdropClass" style="float: inline-end; margin-right:3ex;">
+                        <button type="button" class="btn btn-sm btn-outline-info float-end" data-bs-toggle="modal" data-bs-target="#staticBackdropClass" style="float: inline-end; margin-right:3ex;">
                             Add Class
                         </button>
 
@@ -44,7 +44,7 @@
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary w-100">Create Section</button>
+                                        <button type="button" class="btn btn-sm btn-primary w-100">Create Section</button>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary w-100">Create Class</button>
+                                        <button type="button" class="btn btn-sm btn-primary w-100">Create Class</button>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                                                     </form>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-primary w-100">Update Class</button>
+                                                    <button type="button" class="btn btn-sm btn-primary w-100">Update Class</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,7 +164,7 @@
                                                     </form>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-primary w-100">Update Section</button>
+                                                    <button type="button" class="btn btn-sm btn-primary w-100">Update Section</button>
                                                 </div>
                                             </div>
                                         </div>

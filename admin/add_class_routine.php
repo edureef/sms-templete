@@ -11,7 +11,7 @@
                     </div>
                     <div class="col-sm-6">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-info mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdropRoutine" style="float: inline-end;">
+                        <button type="button" class="btn btn-sm btn-outline-info float-end mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdropRoutine" style="float: inline-end;">
                             Add Class Routine
                         </button>
 
@@ -118,7 +118,7 @@
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary w-100">Add class routine</button>
+                                        <button type="button" class="btn btn-sm btn-primary w-100">Add class routine</button>
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@
                                 </form>
                             </div>
                             <div class="col-sm-2">
-                                <button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+                                <button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
                             </div>
                         </div>
                         <div class="row">

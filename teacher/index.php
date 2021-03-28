@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="row card-body">
                     <div class="col-sm-6">
-                        <h5>Teacher Home Page</h5>
+                        <h5 class="mb-3">Teacher Home Page</h5>
                     </div>
                 </div>
             </div>
@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-6">
                 <div class="card">
-                    <div class="card-header" style="background-color: #343a40;">
+                    <div class="card-header" style="background-color: #4b5f73;">
                         <h5 class="card-title mb-0 text-light" style="font-size: medium;">My Information</h5>
                     </div>
                     <div class="card-body">
@@ -63,25 +63,25 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <div class="card-header" style="background-color: #343a40;">
+                            <div class="card-header" style="background-color: #4b5f73;">
                                 <h5 class="card-title mb-0 text-light" style="font-size: medium;">Notice Board</h5>
                             </div>
                             <div class="card-body" style=" margin-left: 8px;">
                                 <div class="row p-1">31 May, 2020</div>
                                 <div class="row p-1 font-weight-bold text-info">Title</div>
-                                <div class="row p-1">Discription-gewewrerfewgtrfshgsretresgfdgrestresgsredytgret</div>
+                                <div class="row p-1 justify-content-center"><a href="" class="btn btn-secondary btn-sm col-4">View Details</a></div>
                                 <hr>
                                 <div class="row p-1">31 May, 2020</div>
                                 <div class="row p-1 font-weight-bold text-info">Title</div>
-                                <div class="row p-1">Discription-gewewrerfewgtrfshgsretresgfdgrestresgsredytgret</div>
+                                <div class="row p-1 justify-content-center"><a href="" class="btn btn-secondary btn-sm col-4">View Details</a></div>
                                 <hr>
                                 <div class="row p-1">31 May, 2020</div>
                                 <div class="row p-1 font-weight-bold text-info">Title</div>
-                                <div class="row p-1">Discription-gewewrerfewgtrfshgsretresgfdgrestresgsredytgret</div>
+                                <div class="row p-1 justify-content-center"><a href="" class="btn btn-secondary btn-sm col-4">View Details</a></div>
                                 <hr>
                                 <div class="row p-1">31 May, 2020</div>
                                 <div class="row p-1 font-weight-bold text-info">Title</div>
-                                <div class="row p-1">Discription-gewewrerfewgtrfshgsretresgfdgrestresgsredytgret</div>
+                                <div class="row p-1 justify-content-center"><a href="" class="btn btn-secondary btn-sm col-4">View Details</a></div>
                                 <hr>
                                 <nav aria-label="Page navigation example" class="mt-5">
                                     <ul class="pagination justify-content-center">

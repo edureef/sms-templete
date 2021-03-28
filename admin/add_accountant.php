@@ -10,7 +10,7 @@
                     </div>
                     <div class="col-sm-6">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="float: inline-end;">
+                        <button type="button" class="btn btn-sm btn-outline-info float-end" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="float: inline-end;">
                             Add accountant
                         </button>
 
@@ -62,7 +62,7 @@
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary w-100">Create accountant</button>
+                                        <button type="button" class="btn btn-sm btn-primary w-100">Create accountant</button>
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@
                                                     </form>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-primary w-100">Update Accountant</button>
+                                                    <button type="button" class="btn btn-sm btn-primary w-100">Update Accountant</button>
                                                 </div>
                                             </div>
                                         </div>

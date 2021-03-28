@@ -2,15 +2,19 @@
 
 <main class="content">
 	<div class="container-fluid p-0">
-
-		<h1 class="h3 mb-3">Subject</h1>
+		<div class="card">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-6">
+						<h5 class="mb-3">Subject</h5>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="row justify-content-center">
 			<div class="col-12">
 				<div class="card">
-					<div class="card-header">
-						<h5 class="card-title mb-0"></h5>
-					</div>
 					<div class="card-body">
 						<div class="row mb-5 justify-content-center">
 							<div class="col-sm-3">
@@ -23,14 +27,14 @@
 									</select>
 								</form>
 							</div>
-						
+
 							<div class="col-sm-2">
 								<button type="submit" class="btn btn-primary col-sm-12">Filter</button>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="table-responsive-sm">
+								<div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl table-responsive-xxl">
 									<table class="table table-striped">
 										<thead>
 											<tr style="background-color: #313a46; color: #ababab;">

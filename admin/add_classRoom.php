@@ -10,7 +10,7 @@
                     </div>
                     <div class="col-sm-6">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-info mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdropClassroom" style="float: inline-end;">
+                        <button type="button" class="btn btn-sm btn-outline-info float-end mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdropClassroom" style="float: inline-end;">
                             Add Class Room
                         </button>
 
@@ -32,7 +32,7 @@
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary w-100">Create class room</button>
+                                        <button type="button" class="btn btn-sm btn-primary w-100">Create class room</button>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                                                     </form>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-primary w-100">Update Class Room</button>
+                                                    <button type="button" class="btn btn-sm btn-primary w-100">Update Class Room</button>
                                                 </div>
                                             </div>
                                         </div>
