@@ -17,9 +17,9 @@
 				<div class="card">
 					<div class="card-body">
 						<div class="row mb-5 justify-content-center">
-							<div class="col-sm-3">
+							<div class="col-sm-4">
 								<form>
-									<select class="form-control mb-3">
+									<select class="form-control form-control-sm mb-3">
 										<option selected>Select A Class</option>
 										<option>One</option>
 										<option>Two</option>
@@ -28,8 +28,8 @@
 								</form>
 							</div>
 
-							<div class="col-sm-2">
-								<button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+							<div class="col-sm-4">
+								<button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
 							</div>
 						</div>
 						<div class="row">

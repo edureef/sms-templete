@@ -14,46 +14,46 @@
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-10">
+			<div class="col-8">
 				<div class="card">
 					<div class="card-header bg-primary">
-						<h4 class="card-title text-light" style="font-size:medium;">UPDATE PROFILE</h4>
+						<h6 class="fs-6 text-light">UPDATE PROFILE</h6>
 					</div>
 					<div class="card-body p-5">
-						<form>
+						<form method="POST" action="">
 							<div class="form-group row">
-								<label class="col-sm-4 mb-3 col-form-label">Name</label>
+								<label class="col-sm-4 mb-2 col-form-label">Name</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" placeholder="Enter your name">
+									<input type="text" class="form-control form-control-sm" placeholder="Enter your name">
 								</div>
 							</div>
 							<div class="form-group row">
-								<label class="col-sm-4 mb-3 col-form-label">Email</label>
+								<label class="col-sm-4 mb-2 col-form-label">Email</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" placeholder="email@example.com">
+									<input type="text" class="form-control form-control-sm" placeholder="email@example.com">
 								</div>
 							</div>
 							<div class="form-group row">
-								<label class="col-sm-4 mb-3 col-form-label">Phone</label>
+								<label class="col-sm-4 mb-2 col-form-label">Phone</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" placeholder="123456789">
+									<input type="text" class="form-control form-control-sm" placeholder="123456789">
 								</div>
 							</div>
 							<div class="form-group row">
-								<label class="col-sm-4 mb-3 col-form-label">Address</label>
+								<label class="col-sm-4 mb-2 col-form-label">Address</label>
 								<div class="col-sm-8">
-									<input type="text" class="form-control" placeholder="">
+									<input type="text" class="form-control form-control-sm" placeholder="">
 								</div>
 							</div>
 							<div class="form-group row">
-								<label class="col-sm-4 mb-5 col-form-label">Profile Image</label>
+								<label class="col-sm-4 mb-2 col-form-label">Profile Image</label>
 								<div class="col-sm-8">
-									<input type="file" class="form-control">
+									<input type="file" class="form-control form-control-sm">
 								</div>
 							</div>
-							<div class="form-group row justify-content-center">
-								<div class="col-sm-4">
-									<button class="btn btn-primary col-sm-12" type="submit">Submit form</button>
+							<div class="form-group">
+								<div class="mt-2">
+									<button class="btn btn-sm btn-primary float-end" type="submit">Submit form</button>
 								</div>
 							</div>
 						</form>

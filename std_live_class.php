@@ -16,10 +16,10 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <div class="row justify-content-center">
+                        <div class="row">
                             <div class="col-sm-12">
-                                <div class="table-responsive-sm">
-                                    <table id="example" class="table table-striped my-0">
+                                <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                                    <table id="example" class="table table-sm table-striped py-4">
                                         <thead style="background-color: #566079;color: aliceblue;">
                                             <tr>
                                                 <th>Schedule</th>

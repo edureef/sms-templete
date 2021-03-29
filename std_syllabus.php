@@ -14,14 +14,11 @@
 		<div class="row justify-content-center">
 			<div class="col-12">
 				<div class="card">
-					<!-- <div class="card-header">
-						<h5 class="card-title mb-0"></h5>
-					</div> -->
 					<div class="card-body">
 						<div class="row mb-5 justify-content-center">
-							<div class="col-sm-3">
+							<div class="col-sm-4 col-xl-3">
 								<form>
-									<select class="form-control mb-3">
+									<select class="form-control form-control-sm mb-3">
 										<option selected>Select A Class</option>
 										<option>One</option>
 										<option>Two</option>
@@ -29,9 +26,9 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-4 col-xl-3">
 								<form>
-									<select class="form-control mb-3">
+									<select class="form-control form-control-sm mb-3">
 										<option selected>Select Section</option>
 										<option>A</option>
 										<option>B</option>
@@ -39,14 +36,14 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-2">
-								<button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+							<div class="col-sm-4 col-xl-3">
+								<button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="table-responsive-sm">
-									<table id="example" class="table table-striped my-0">
+								<div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+									<table id="example" class="table table-striped py-2">
 										<thead style="background-color: #566079;color: aliceblue;">
 											<tr>
 												<th>Title</th>

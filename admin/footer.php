@@ -3,7 +3,7 @@
         <div class="row text-muted">
             <div class="col-6 text-start">
                 <p class="mb-0">
-                    &copy;<a href="index.php" class="text-muted"><strong>by Rsoftbd</strong></a>
+                    &copy;<a href="index.php" class="text-muted"><strong>Copyright © 2021 RSOFTBD. All development rights reserved.</strong></a>
                 </p>
             </div>
             <div class="col-6 text-end">

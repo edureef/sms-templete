@@ -17,9 +17,9 @@
 				<div class="card">
 					<div class="card-body">
 						<div class="row mb-5 justify-content-center">
-							<div class="col-sm-2">
+							<div class="col-sm-3">
 								<form>
-									<select class="form-control mb-3">
+									<select class="form-control form-control-sm mb-3">
 										<option value="">Select A Exam</option>
 										<option value="1">First term exam</option>
 										<option value="2">Second term exam</option>
@@ -28,9 +28,9 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-3">
 								<form>
-									<select class="form-control mb-3">
+									<select class="form-control form-control-sm mb-3">
 										<option selected>Select A Class</option>
 										<option>One</option>
 										<option>Two</option>
@@ -38,9 +38,9 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-3">
 								<form>
-									<select class="form-control mb-3">
+									<select class="form-control form-control-sm mb-3">
 										<option selected>Select Section</option>
 										<option>A</option>
 										<option>B</option>
@@ -48,12 +48,12 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-2">
-								<button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+							<div class="col-sm-3">
+								<button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
 							</div>
 						</div>
 						<div class="row justify-content-center">
-							<div class="col-sm-8">
+							<div class="col-sm-12">
 								<div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl table-responsive-xxl">
 									<table class="table table-striped">
 										<thead>
