@@ -13,13 +13,13 @@
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-12 col-xl-6">
                 <div class="card">
                     <div class="card-header" style="background-color: #4b5f73;">
                         <h5 class="card-title mb-0 text-light" style="font-size: medium;">My Information</h5>
                     </div>
                     <div class="card-body">
-                        <div class="table-responsive-sm">
+                        <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
                             <table class="table">
                                 <tr>
                                     <th>Image:</th>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-sm-12 col-xl-6">
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -100,17 +100,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="row">
-					<div class="col-12">
-						<div class="card">
-							<div class="card-header">
-								<h5 class="card-title mb-0">Academic Calander</h5>
-							</div>
-							<div class="card-body">
-							</div>
-						</div>
-					</div>
-				</div> -->
             </div>
         </div>
 

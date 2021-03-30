@@ -27,7 +27,7 @@
                                         <form method="POST" action="">
                                             <div class="mb-3">
                                                 <label class="form-label">Class</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Select a class</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -36,7 +36,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Section</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Select Section</option>
                                                   <option value="1">A</option>
                                                   <option value="2">B</option>
@@ -45,7 +45,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Subject</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Select Subject</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -54,7 +54,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Teacher</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Assign a teacher</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -63,7 +63,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Class Room</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Select a class room</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -72,7 +72,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Day</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Select a day</option>
                                                   <option value="1">Sunday</option>
                                                   <option value="2">Monday</option>
@@ -81,7 +81,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Starting hour</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Starting hour</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -90,7 +90,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Starting minute</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Starting minute</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -99,7 +99,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Ending hour</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Ending hour</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -108,7 +108,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Ending minute</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                   <option selected>Ending minute</option>
                                                   <option value="1">One</option>
                                                   <option value="2">Two</option>
@@ -135,7 +135,7 @@
                         <div class="row mb-5 justify-content-center">
                             <div class="col-sm-3">
                                 <form>
-                                    <select class="form-control mb-3">
+                                    <select class="form-control form-control-sm mb-3">
                                         <option selected>Select A Class</option>
                                         <option>One</option>
                                         <option>Two</option>
@@ -145,7 +145,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <form>
-                                    <select class="form-control mb-3">
+                                    <select class="form-control form-control-sm mb-3">
                                         <option selected>Select Section</option>
                                         <option>A</option>
                                         <option>B</option>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="table-responsive-sm">
+                                <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
                                     <table class="table table-striped table-light">
                                         <thead>
                                             <tr>

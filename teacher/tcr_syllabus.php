@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#syllabusModal" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Create syllabus</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="modal" data-bs-target="#syllabusModal" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Create syllabus</button>
 
                     <!-- Modal -->
                     <div class="modal fade" id="syllabusModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="makeSyllabusModel" aria-hidden="true">
@@ -25,11 +25,11 @@
                                         <div class="col-8">
                                             <div class="mb-3">
                                                 <label class="form-label">Title</label>
-                                                <input type="text" class="form-control">
+                                                <input type="text" class="form-control form-control-sm">
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Class</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                     <option selected>Choose A Class</option>
                                                     <option value="1">One</option>
                                                     <option value="2">Two</option>
@@ -39,7 +39,7 @@
 
                                             <div class="mb-3">
                                                 <label class="form-label">Section</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                     <option selected>Choose A Section</option>
                                                     <option value="1">A</option>
                                                     <option value="2">B</option>
@@ -48,7 +48,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Subject</label>
-                                                <select class="form-select">
+                                                <select class="form-select form-select-sm">
                                                     <option selected>Choose A Subject</option>
                                                     <option value="1">Math</option>
                                                     <option value="2">Physics</option>
@@ -57,13 +57,13 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label for="" class="form-label">Upload syllabus</label>
-                                                <input class="form-control" id="" type="file">
+                                                <input class="form-control form-control-sm" id="" type="file">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer mx-auto col-10">
-                                    <button type="button" class="btn btn-primary w-100">Create syllabus</button>
+                                    <button type="button" class="btn btn-sm btn-primary w-100">Create syllabus</button>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                         <div class="row mb-5 justify-content-center">
                             <div class="col-sm-3">
                                 <form>
-                                    <select class="form-control mb-3">
+                                    <select class="form-control form-control-sm mb-3">
                                         <option selected>Select A Class</option>
                                         <option>One</option>
                                         <option>Two</option>
@@ -90,7 +90,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <form>
-                                    <select class="form-control mb-3">
+                                    <select class="form-control form-control-sm mb-3">
                                         <option selected>Select Section</option>
                                         <option>A</option>
                                         <option>B</option>
@@ -99,12 +99,12 @@
                                 </form>
                             </div>
                             <div class="col-sm-2">
-                                <button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+                                <button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="table-responsive-sm">
+                                <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
                                     <table id="example" class="table table-striped my-0">
                                         <thead style="background-color: #566079;color: aliceblue;">
                                             <tr>

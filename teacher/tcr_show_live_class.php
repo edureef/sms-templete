@@ -18,8 +18,8 @@
                     <div class="card-body">
                         <div class="row justify-content-center">
                             <div class="col-sm-12">
-                                <div class="table-responsive-sm">
-                                    <table id="example" class="table table-striped my-0">
+                                <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                                    <table id="example" class="table table-striped py-2">
                                         <thead style="background-color: #566079;color: aliceblue;">
                                             <tr>
                                                 <th>Schedule</th>
@@ -46,8 +46,8 @@
                                                     </small>
                                                 </td>
                                                 <td>
-                                                <button class="btn btn-primary">Edit</button>
-                                                <button class="btn btn-danger">Delete</button>
+                                                <button class="btn btn-sm btn-primary mb-2">Edit</button>
+                                                <button class="btn btn-sm btn-danger mb-2">Delete</button>
                                                 </td>
                                             </tr>
                                         </tbody>

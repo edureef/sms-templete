@@ -16,8 +16,8 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <div class="row mb-5">
-                            <div class="col-sm-4">
+                        <div class="row justify-content-center mb-5">
+                            <div class="col-sm-4 col-xl-2">
                                 <form>
                                     <select class="form-control form-control-sm mb-3">
                                         <option selected>Select A Class</option>
@@ -27,7 +27,7 @@
                                     </select>
                                 </form>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 col-xl-2">
                                 <form>
                                     <select class="form-control form-control-sm mb-3">
                                         <option selected>Select Section</option>
@@ -37,13 +37,13 @@
                                     </select>
                                 </form>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 col-xl-2">
                                 <button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="table-responsive table-responsive-sm">
+                                <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
                                     <table id="example" class="table table-sm table-striped my-0">
                                         <thead style="background-color: #566079;color: aliceblue;">
                                             <tr>

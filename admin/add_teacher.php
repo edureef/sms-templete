@@ -84,7 +84,7 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-body">
-                        <div class="table-responsive-sm">
+                        <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
                             <table id="example" class="table table-bordered pt-3 pb-3">
                                 <thead>
                                     <tr>
@@ -110,8 +110,8 @@
                                         <td>+888522412526</td>
                                         <td>Lecturer</td>
                                         <td class="text-center">
-                                            <button class="btn btn-sm btn-success"><i class="fas fa-edit"></i></button>
-                                            <button class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button>
+                                            <button class="btn btn-sm btn-success mb-2"><i class="fas fa-edit"></i></button>
+                                            <button class="btn btn-sm btn-danger mb-2"><i class="fas fa-times"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -126,8 +126,8 @@
                                         <td>+888522412526</td>
                                         <td>Senior Lecturer</td>
                                         <td class="text-center">
-                                            <button class="btn btn-sm btn-success"><i class="fas fa-edit"></i></button>
-                                            <button class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button>
+                                            <button class="btn btn-sm btn-success mb-2"><i class="fas fa-edit"></i></button>
+                                            <button class="btn btn-sm btn-danger mb-2"><i class="fas fa-times"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -142,8 +142,8 @@
                                         <td>+888522412526</td>
                                         <td>Lecturer</td>
                                         <td class="text-center">
-                                            <button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdropEdit"><i class="fas fa-edit"></i></button>
-                                            <button class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button>
+                                            <button class="btn btn-sm btn-success mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdropEdit"><i class="fas fa-edit"></i></button>
+                                            <button class="btn btn-sm btn-danger mb-2"><i class="fas fa-times"></i></button>
                                         </td>
                                         <!-- Edit Model -->
                                         <div class="modal fade" id="staticBackdropEdit" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Label" aria-hidden="true">

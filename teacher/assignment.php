@@ -8,7 +8,7 @@
                     <h5>Assignment</h5>
                 </div>
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#assignmentModel" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Add Assignment</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="modal" data-bs-target="#assignmentModel" data-backdrop="static" data-keyboard="false" style="float: inline-end;">Add Assignment</button>
 
                     <div class="modal fade" id="assignmentModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="assignmentModelLabel" aria-hidden="true">
                         <div class="modal-dialog">
@@ -70,9 +70,9 @@
         <div class="card">
             <div class="card-body">
                 <div class="row mb-5 justify-content-center">
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 col-lg-3">
                         <form>
-                            <select class="form-control mb-3">
+                            <select class="form-control form-control-sm mb-3">
                                 <option selected>Select A Class</option>
                                 <option>One</option>
                                 <option>Two</option>
@@ -80,9 +80,9 @@
                             </select>
                         </form>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 col-lg-3">
                         <form>
-                            <select class="form-control mb-3">
+                            <select class="form-control form-control-sm mb-3">
                                 <option selected>Select Section</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -90,9 +90,9 @@
                             </select>
                         </form>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-3 col-lg-3">
                         <form>
-                            <select class="form-control mb-3">
+                            <select class="form-control form-control-sm mb-3">
                                 <option selected>Select Subject</option>
                                 <option>English</option>
                                 <option>Physics</option>
@@ -100,46 +100,48 @@
                             </select>
                         </form>
                     </div>
-                    <div class="col-sm-2">
-                        <button type="submit" class="btn btn-primary col-sm-12">Filter</button>
+                    <div class="col-sm-3 col-lg-3">
+                        <button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
                     </div>
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-10">
-                        <table class="table table-bordered">
-                            <thead class="table-dark">
-                                <th>Title</th>
-                                <th>Class</th>
-                                <th>Subject</th>
-                                <th>Deadline</th>
-                                <th>Submissions</th>
-                                <th class="text-center">Action</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Refraction of Light and Our Eyes</td>
-                                    <td>Class : Class One <br>
-                                        Section : A</td>
-                                    <td>Physics</td>
-                                    <td>24 Jan 2027</td>
-                                    <td>1 Students</td>
-                                    <td class="text-center">
-                                        <div class="btn-group" role="group">
-                                            <button id="btnGroupDrop1" type="button" class="p-1 btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="border: 1px solid #222121;border-radius: 20px;">
-                                                <i class="align-middle" data-feather="more-vertical" style="margin-left: 16px;"></i>
-                                            </button>
-                                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                                <li><a class="dropdown-item" href="#">Questions</a></li>
-                                                <li><a class="dropdown-item" href="#">Submissions</a></li>
-                                                <li><a class="dropdown-item" href="#">Edit</a></li>
-                                                <li><a class="dropdown-item" href="#">Delete</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="col-10 col-sm-auto col-xl-12">
+                        <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                            <table class="table table-bordered">
+                                <thead class="table-dark">
+                                    <th>Title</th>
+                                    <th>Class</th>
+                                    <th>Subject</th>
+                                    <th>Deadline</th>
+                                    <th>Submissions</th>
+                                    <th class="text-center">Action</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Refraction of Light and Our Eyes</td>
+                                        <td>Class : Class One <br>
+                                            Section : A</td>
+                                        <td>Physics</td>
+                                        <td>24 Jan 2027</td>
+                                        <td>1 Students</td>
+                                        <td class="text-center">
+                                            <div class="btn-group" role="group">
+                                                <button id="btnGroupDrop1" type="button" class="p-1 btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="border: 1px solid #222121;border-radius: 20px;">
+                                                    <i class="align-middle" data-feather="more-vertical" style="margin-left: 16px;"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                                    <li><a class="dropdown-item" href="#">Questions</a></li>
+                                                    <li><a class="dropdown-item" href="#">Submissions</a></li>
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

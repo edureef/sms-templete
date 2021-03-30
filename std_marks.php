@@ -13,7 +13,7 @@
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-12">
+			<div class="col-12 col-lg-10">
 				<div class="card">
 					<div class="card-body">
 						<div class="row mb-5 justify-content-center">

@@ -27,7 +27,7 @@
                                             <form method="POST" action="">
                                                 <div class="mb-3">
                                                     <label class="form-label">Class</label>
-                                                    <select class="form-select">
+                                                    <select class="form-select form-select-sm">
                                                         <option selected>Select a class</option>
                                                         <option value="1">One</option>
                                                         <option value="2">Two</option>
@@ -36,7 +36,7 @@
                                                 </div>
                                                 <div class="mb-3">
                                                     <label class="form-label">Student</label>
-                                                    <select class="form-select">
+                                                    <select class="form-select form-select-sm">
                                                         <option selected>Select a student</option>
                                                         <option value="1">One</option>
                                                         <option value="2">Two</option>
@@ -57,7 +57,7 @@
                                                 </div>
                                                 <div class="mb-3">
                                                     <label class="form-label">Status</label>
-                                                    <select class="form-select">
+                                                    <select class="form-select form-select-sm">
                                                         <option selected>Select a status</option>
                                                         <option value="1">Paid</option>
                                                         <option value="2">Unpaid</option>
@@ -66,7 +66,7 @@
                                             </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary w-100">Create Invoice</button>
+                                            <button type="button" class="btn btn-sm btn-primary w-100">Create Invoice</button>
                                         </div>
                                     </div>
                                 </div>
@@ -80,16 +80,16 @@
 
 
         <div class="row">
-            <div class="col col-sm-6 col-lg-3">
+            <div class="col col-sm-12 col-lg-3">
                 <div class="card">
                     <div class="card-body">
                         <form>
                             <div class="mb-3">
                                 <label class="form-label">Date</label>
-                                <input type="date" class="form-control">
+                                <input type="date" class="form-control form-control-sm">
                             </div>
                             <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select form-select-sm">
                                     <option selected>All Class</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -97,7 +97,7 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select form-select-sm">
                                     <option selected>All Status</option>
                                     <option value="1">Paid</option>
                                     <option value="2">Unpaid</option>
@@ -108,10 +108,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-auto col-lg-9">
+            <div class="col col-sm-12 col-lg-9">
                 <div class="card">
                     <div class="card-body">
-                        <div class="table-responsive-sm">
+                        <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
                             <table id="example" class="table table-hover">
                                 <thead>
                                     <th>Invoice no</th>

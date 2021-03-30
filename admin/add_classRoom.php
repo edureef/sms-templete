@@ -46,55 +46,57 @@
             <div class="col-sm-10">
                 <div class="card">
                     <div class="card-body">
-                        <table id="example" class="table table-bordered pt-3 pb-3">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Room Number</th>
-                                    <th class="text-center">Option</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Room-1</td>
-                                    <td class="text-center">
-                                        <button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdropEditSubject"><i class="fas fa-edit"></i></button>
-                                        <button class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button>
-                                    </td>
-                                </tr>
+                        <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                            <table id="example" class="table table-bordered pt-3 pb-3">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Room Number</th>
+                                        <th class="text-center">Option</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Room-1</td>
+                                        <td class="text-center">
+                                            <button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdropEditSubject"><i class="fas fa-edit"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button>
+                                        </td>
+                                    </tr>
 
-                                <tr>
-                                    <td>Room-2</td>
-                                    <td class="text-center">
-                                        <button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdropEditSubject"><i class="fas fa-edit"></i></button>
-                                        <button class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button>
-                                    </td>
-                                    <!-- Edit Class Room Model -->
-                                    <div class="modal fade" id="staticBackdropEditSubject" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Label" aria-hidden="true">
-                                        <div class="modal-dialog  modal-dialog-scrollable">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="Label">Update Class Room</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <form method="POST" action="">
-                                                        <div class="mb-3">
-                                                            <label class="form-label">Class Room Name</label>
-                                                            <input type="text" class="form-control">
-                                                            <div class="form-text">Provide class room name.</div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-sm btn-primary w-100">Update Class Room</button>
+                                    <tr>
+                                        <td>Room-2</td>
+                                        <td class="text-center">
+                                            <button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdropEditSubject"><i class="fas fa-edit"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button>
+                                        </td>
+                                        <!-- Edit Class Room Model -->
+                                        <div class="modal fade" id="staticBackdropEditSubject" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Label" aria-hidden="true">
+                                            <div class="modal-dialog  modal-dialog-scrollable">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="Label">Update Class Room</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form method="POST" action="">
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Class Room Name</label>
+                                                                <input type="text" class="form-control">
+                                                                <div class="form-text">Provide class room name.</div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-sm btn-primary w-100">Update Class Room</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <!-- End Edit Class Room Model -->
-                                </tr>
-                            </tbody>
-                        </table>
+                                        <!-- End Edit Class Room Model -->
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

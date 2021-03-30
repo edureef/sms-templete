@@ -18,10 +18,10 @@
 				<div class="card">
 					<div class="card-body">
 						<div class="row mb-5 justify-content-center">
-							<div class="col-sm-3">
+							<div class="col-sm-3 col-xl-1">
 								<form>
 									<select class="form-control form-control-sm mb-3">
-										<option value="">Select A Month</option>
+										<option value="">Select Month</option>
 										<option value="Jan">January</option>
 										<option value="Feb">February</option>
 										<option value="Mar">March</option>
@@ -37,7 +37,7 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-3 col-xl-1">
 								<form>
 									<select class="form-control form-control-sm mb-3">
 										<option selected>Select Year</option>
@@ -47,7 +47,7 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-3 col-xl-1">
 								<form>
 									<select class="form-control form-control-sm mb-3">
 										<option selected>Select A Class</option>
@@ -57,7 +57,7 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-3 col-xl-1">
 								<form>
 									<select class="form-control form-control-sm mb-3">
 										<option selected>Select Section</option>
@@ -67,7 +67,7 @@
 									</select>
 								</form>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-3 col-xl-1">
 								<button type="submit" class="btn btn-sm btn-primary col-sm-12">Filter</button>
 							</div>
 						</div>
